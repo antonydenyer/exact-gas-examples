@@ -1,0 +1,39 @@
+# Smart Contract Development
+
+# Environment files
+.env
+.env.local
+
+# Foundry
+cache/
+out/
+broadcast/
+
+# Node
+node_modules/
+package-lock.json
+yarn.lock
+
+# Builds
+dist/
+build/
+
+# NPM / Yarn debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/

@@ -1,0 +1,15 @@
+{
+  "name": "smart-contract",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "balance": "node scripts/balance.js",
+    "exact-gas": "node scripts/exact-gas.js",
+    "get-storage": "node scripts/get-storage.js",
+    "set-greeting": "node scripts/set-greeting.js"
+  },
+  "dependencies": {
+    "viem": "latest",
+    "dotenv": "latest"
+  }
+}
